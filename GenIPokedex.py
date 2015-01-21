@@ -6,6 +6,8 @@ import csv
 # Save the data here
 f = open('C:/PandP/Pokedex/GenIPokedex.csv','wb')
 writer = csv.writer(f)
+
+# Write header
 writer.writerow(['Number','Name','Pokedex'])
 
 # Loop throught the different Pokemon
